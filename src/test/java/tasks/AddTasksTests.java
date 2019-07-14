@@ -13,10 +13,7 @@ public class AddTasksTests extends BaseTests {
     @Test
     public void addTasks(){
 
-        var tasks = List.of(
-                "pay mortgage bill",
-                "make dentist appointment",
-                "get car washed");
+        var tasks = List.of("pay mortgage bill","make dentist appointment","get car washed");
         tasks.forEach(todosPage::addTask);
 
         var addedTasksList = todosPage.getAllTasks();
