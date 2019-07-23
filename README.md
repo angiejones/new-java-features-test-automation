@@ -6,7 +6,7 @@ Features shown:
 
 * List.of
 
-* Type Inference (var)
+* Type Inference for Local Variables (var)
 
 * forEach
 
